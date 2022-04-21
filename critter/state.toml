@@ -1,10 +1,10 @@
 name = "critter"
 network_id = "lxdbr0"
-containers = ["lxdk-critter-worker-n8lqt", "lxdk-critter-etcd-4zqfy", "lxdk-critter-controller-aeaww", "lxdk-critter-registry-dbnaf", "lxdk-critter-worker-ie7po", "lxdk-critter-worker-x4fp8", "lxdk-critter-worker-osn9t"]
+containers = ["lxdk-critter-worker-n8lqt", "lxdk-critter-etcd-4zqfy", "lxdk-critter-controller-aeaww", "lxdk-critter-registry-dbnaf", "lxdk-critter-worker-ie7po", "lxdk-critter-worker-x4fp8", "lxdk-critter-worker-osn9t", "lxdk-critter-worker-0bk5e"]
 run_state = 1
 etcd_container_name = "lxdk-critter-etcd-4zqfy"
 controller_container_name = "lxdk-critter-controller-aeaww"
 registry_container_name = "lxdk-critter-registry-dbnaf"
-worker_container_names = ["lxdk-critter-worker-n8lqt", "lxdk-critter-worker-ie7po", "lxdk-critter-worker-x4fp8", "lxdk-critter-worker-osn9t"]
+worker_container_names = ["lxdk-critter-worker-n8lqt", "lxdk-critter-worker-ie7po", "lxdk-critter-worker-x4fp8", "lxdk-critter-worker-osn9t", "lxdk-critter-worker-0bk5e"]
 storage_driver = "btrfs"
 storage_pool = "lxdk-critter"
