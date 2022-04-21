@@ -1,7 +1,7 @@
 name = "critter"
 network_id = "lxdbr0"
 containers = ["lxdk-critter-worker-qwhqa", "lxdk-critter-etcd-udlb7", "lxdk-critter-controller-4h970", "lxdk-critter-registry-n4kli"]
-run_state = 0
+run_state = 1
 etcd_container_name = "lxdk-critter-etcd-udlb7"
 controller_container_name = "lxdk-critter-controller-4h970"
 registry_container_name = "lxdk-critter-registry-n4kli"
